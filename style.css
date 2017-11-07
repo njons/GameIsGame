@@ -1,0 +1,49 @@
+body {
+	background-color: #000;
+	width: auto;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #fff;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Style the a tags in the nav*/
+
+header nav {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header nav a {
+	margin: 10px;
+}
+
+/*section with the images*/
+
+section {
+	display: flex;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
+}
+
+img {
+	padding: 10px;
+	width: 200px;
+}
+
+.overlay {
+	opacity: 0;
+	transition: 10000ms all;
+}
+.overlay:hover {
+	opacity: 1;
+	transition: 500ms all;
+}
